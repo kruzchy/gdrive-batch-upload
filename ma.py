@@ -27,7 +27,7 @@ for file in os.listdir():
 
     file_links_dict[file1['title']] = file1['alternateLink']
     file1 = None
-    # send2trash.send2trash(file)
+    send2trash.send2trash(file)
 print(file_links_dict)
 os.chdir('..')
 with open('file_links.txt', 'w') as f:
