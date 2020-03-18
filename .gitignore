@@ -2,3 +2,5 @@ folder_links.txt
 client_secrets.json
 venv/
 .idea/
+ram2/
+*.txt
